@@ -5,77 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <p><b>SIGN UP</b></p>
-
-
-    <div>
-    Name:<br>
-    <input list="full name"type="text" name="name"placeholder="full name" autofocus required>      </div></br>
-     </div></br>
-
-
-     
-     <div>
-     Email:<br>
-     <input placeholder="email" type="email" name="" id="">
-     </div></br>
-
-
-    <div>
-        Password:<br>
-      <input placeholder="8 charaters" type="email" name="" id="">
-       </div></br>
-
-       <div>
-       Confirm Password:</br>
-       <input placeholder="8 charaters" type="text">
-       </div><br>
-
-       <div>
-       Date Of Birth:<br>
-       <input placeholder="" type="date" name="" id="">
-       </div>
-
-       <div>
-       <label for="sex">Male:</label>
-       <input type="radio" name="sex" id="male" value="male"</input>
-       <label for="gender">Female:</label>
-       <input type="radio" name="gender" male="female" value="female"</input>
-       <label for="gender">Other:</label>
-       <input type="radio" name="gender" id="female" value="other"</input>
-       </div><br>
-
-       <div>
-       Insert your photo:<br>
-       <input type="file" name="choose file" id="">
-        </div><br>
-
-        <div>
-        Insert your resume:<br>
-        <input type="file" name="choose file" id="">
-        </div><br>
-
-        <div>
-            Security Question:<br>
-            <select id="select">
-            <option value="">i agree the terms</option>
-            <option value="">what is your nationality?</option>
-            <option value="">are you over 18?</option>
-            <option value=""S>select</option>
-            </select>
-        </div>
-        <div>
-            <textarea name="answer" rows="6" cols="28" rows="6"></textarea>
-        </div><br>
+    <form>
+        <h2>Registration Form</h2>
+        <div class="name">
             <div>
-          <input type="checkbox" name="" id="">
-           I agree to terms and conditions<br>
-            </div><br>
-
-           </div>
-           <input type="submit" value="register">
-                </div>
-             </body>
-            </html>
+                <label for="">First Name</label>
+                <input type="text" name="" id="">
+            </div>
+            <div>
+                <label for="">First Name</label>
+                <input type="text" name="" id="">
+            </div>
+        </div>
+        <div class="email">
+            <label for="email address">Email Address</label>
+            <input type="text" name="" id="">
+        </div>
+        <div class="gender">
+            <button>Male</button> <button>Female</button>
+        </div>
+        <div class="country">
+            <label for="country">Country</label>
+            <input type="text" name="" id="">
+        </div>
+        <div class="city">
+            <label for="country">City</label>
+            <input type="text" name="" id="">
+        </div>
+        <button class="register-btn">Register Now</button>
+    </form>
+</body>
+</html>
